@@ -1,0 +1,62 @@
+img {width:3cm;height:3cm;}
+table {width:80%;margin:auto;}
+th#price {cursor:pointer;}
+li {color:blue;}
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
+
+body{
+    color:black;
+    background-color: rgb(93, 154, 178);
+}
+
+h1{
+    color:rgb(105, 10, 14);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h2{
+    color: rgb(34, 109, 34);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    color:green;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    color: black;
+    font-size: 15px;
+    border-color: brown;
+    border-radius: 1rem;
+    padding: 6px;
+}
+table{
+    background-color: rgb(152, 213, 153);
+    text-align: center;
+    border-color: brown;
+}
+
+form, input{
+    text-align: right;
+    color: rgb(13, 3, 43);
+    font-size: 18px;
+}
+.form,ol,li{
+text-align: left;
+}
+
